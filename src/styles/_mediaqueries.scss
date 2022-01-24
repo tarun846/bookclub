@@ -1,0 +1,47 @@
+@media all and (max-width: 1000px){
+
+    .hero{
+        grid-template-columns: repeat(3,1fr);
+    }
+    }
+    @media all and (max-width: 540px){
+
+        .hero{
+            grid-template-columns: repeat(2,1fr);
+        }
+        }
+     
+        
+        @media all and (max-width: 620px){
+            .search-container{
+                position: fixed;
+                top: auto;
+                bottom: 0;
+                background-color: #ffbccc;
+                width: 100%;
+                z-index: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                .search {
+                    background-color: #ffe581;
+                    width: 340px;
+                    .input{
+                        input{
+                            background-color: #ffe581;
+                        }
+                    }
+                    .search-img{
+                        background-color: #ffe581;
+                        
+                    }
+                    .exit-img{
+                        background-color: #ffe581;
+                        
+                    }
+                }
+            }
+                   
+                   }
